@@ -1,0 +1,880 @@
+fileFormatVersion: 2
+guid: 399d8c941832cfc4d8ba3574655197c6
+timeCreated: 1517115784
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Cow
+    100004: Cow Armature
+    100006: ElbowPole.l
+    100008: ElbowPole.l_end
+    100010: ElbowPole.r
+    100012: ElbowPole.r_end
+    100014: EndTail
+    100016: Foot.l
+    100018: Foot.l_end
+    100020: Foot.r
+    100022: Foot.r_end
+    100024: FootRoll.l
+    100026: FootRoll.r
+    100028: FootTarget.l
+    100030: FootTarget.l_end
+    100032: FootTarget.r
+    100034: FootTarget.r_end
+    100036: HandTarget.l
+    100038: HandTarget.l_end
+    100040: HandTarget.r
+    100042: HandTarget.r_end
+    100044: Head
+    100046: Head_end
+    100048: Hip
+    100050: KneePole.l
+    100052: KneePole.l_end
+    100054: KneePole.r
+    100056: KneePole.r_end
+    100058: LowerArm.l
+    100060: LowerArm.l_end
+    100062: LowerArm.r
+    100064: LowerArm.r_end
+    100066: LowerLeg.l
+    100068: LowerLeg.r
+    100070: MiddleTail
+    100072: Neck
+    100074: TailTip
+    100076: TailTip_end
+    100078: Torso
+    100080: UpperArm.l
+    100082: UpperArm.r
+    100084: UpperLeg.l
+    100086: UpperLeg.r
+    100088: UpperTail
+    400000: //RootNode
+    400002: Cow
+    400004: Cow Armature
+    400006: ElbowPole.l
+    400008: ElbowPole.l_end
+    400010: ElbowPole.r
+    400012: ElbowPole.r_end
+    400014: EndTail
+    400016: Foot.l
+    400018: Foot.l_end
+    400020: Foot.r
+    400022: Foot.r_end
+    400024: FootRoll.l
+    400026: FootRoll.r
+    400028: FootTarget.l
+    400030: FootTarget.l_end
+    400032: FootTarget.r
+    400034: FootTarget.r_end
+    400036: HandTarget.l
+    400038: HandTarget.l_end
+    400040: HandTarget.r
+    400042: HandTarget.r_end
+    400044: Head
+    400046: Head_end
+    400048: Hip
+    400050: KneePole.l
+    400052: KneePole.l_end
+    400054: KneePole.r
+    400056: KneePole.r_end
+    400058: LowerArm.l
+    400060: LowerArm.l_end
+    400062: LowerArm.r
+    400064: LowerArm.r_end
+    400066: LowerLeg.l
+    400068: LowerLeg.r
+    400070: MiddleTail
+    400072: Neck
+    400074: TailTip
+    400076: TailTip_end
+    400078: Torso
+    400080: UpperArm.l
+    400082: UpperArm.r
+    400084: UpperLeg.l
+    400086: UpperLeg.r
+    400088: UpperTail
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: Cow
+    7400000: Cow Armature|Dropping
+    7400002: Cow Armature|Falling
+    7400004: Cow Armature|Flapping Jump
+    7400006: Cow Armature|Flying
+    7400008: Cow Armature|Plain Falling
+    7400010: Cow Armature|Spin Jump
+    9500000: //RootNode
+    13700000: Cow
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Cow Armature|Dropping
+      takeName: Cow Armature|Dropping
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cow
+        weight: 1
+      - path: Cow Armature
+        weight: 1
+      - path: Cow Armature/ElbowPole.l
+        weight: 1
+      - path: Cow Armature/ElbowPole.l/ElbowPole.l_end
+        weight: 1
+      - path: Cow Armature/ElbowPole.r
+        weight: 1
+      - path: Cow Armature/ElbowPole.r/ElbowPole.r_end
+        weight: 1
+      - path: Cow Armature/FootRoll.l
+        weight: 1
+      - path: Cow Armature/FootRoll.l/FootTarget.l
+        weight: 1
+      - path: Cow Armature/FootRoll.l/FootTarget.l/FootTarget.l_end
+        weight: 1
+      - path: Cow Armature/FootRoll.r
+        weight: 1
+      - path: Cow Armature/FootRoll.r/FootTarget.r
+        weight: 1
+      - path: Cow Armature/FootRoll.r/FootTarget.r/FootTarget.r_end
+        weight: 1
+      - path: Cow Armature/HandTarget.l
+        weight: 1
+      - path: Cow Armature/HandTarget.l/HandTarget.l_end
+        weight: 1
+      - path: Cow Armature/HandTarget.r
+        weight: 1
+      - path: Cow Armature/HandTarget.r/HandTarget.r_end
+        weight: 1
+      - path: Cow Armature/Hip
+        weight: 1
+      - path: Cow Armature/Hip/Torso
+        weight: 1
+      - path: Cow Armature/Hip/Torso/Neck
+        weight: 1
+      - path: Cow Armature/Hip/Torso/Neck/Head
+        weight: 1
+      - path: Cow Armature/Hip/Torso/Neck/Head/Head_end
+        weight: 1
+      - path: Cow Armature/Hip/Torso/UpperArm.l
+        weight: 1
+      - path: Cow Armature/Hip/Torso/UpperArm.l/LowerArm.l
+        weight: 1
+      - path: Cow Armature/Hip/Torso/UpperArm.l/LowerArm.l/LowerArm.l_end
+        weight: 1
+      - path: Cow Armature/Hip/Torso/UpperArm.r
+        weight: 1
+      - path: Cow Armature/Hip/Torso/UpperArm.r/LowerArm.r
+        weight: 1
+      - path: Cow Armature/Hip/Torso/UpperArm.r/LowerArm.r/LowerArm.r_end
+        weight: 1
+      - path: Cow Armature/Hip/UpperLeg.l
+        weight: 1
+      - path: Cow Armature/Hip/UpperLeg.l/LowerLeg.l
+        weight: 1
+      - path: Cow Armature/Hip/UpperLeg.l/LowerLeg.l/Foot.l
+        weight: 1
+      - path: Cow Armature/Hip/UpperLeg.l/LowerLeg.l/Foot.l/Foot.l_end
+        weight: 1
+      - path: Cow Armature/Hip/UpperLeg.r
+        weight: 1
+      - path: Cow Armature/Hip/UpperLeg.r/LowerLeg.r
+        weight: 1
+      - path: Cow Armature/Hip/UpperLeg.r/LowerLeg.r/Foot.r
+        weight: 1
+      - path: Cow Armature/Hip/UpperLeg.r/LowerLeg.r/Foot.r/Foot.r_end
+        weight: 1
+      - path: Cow Armature/Hip/UpperTail
+        weight: 1
+      - path: Cow Armature/Hip/UpperTail/MiddleTail
+        weight: 1
+      - path: Cow Armature/Hip/UpperTail/MiddleTail/EndTail
+        weight: 1
+      - path: Cow Armature/Hip/UpperTail/MiddleTail/EndTail/TailTip
+        weight: 1
+      - path: Cow Armature/Hip/UpperTail/MiddleTail/EndTail/TailTip/TailTip_end
+        weight: 1
+      - path: Cow Armature/KneePole.l
+        weight: 1
+      - path: Cow Armature/KneePole.l/KneePole.l_end
+        weight: 1
+      - path: Cow Armature/KneePole.r
+        weight: 1
+      - path: Cow Armature/KneePole.r/KneePole.r_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Cow Armature|Falling
+      takeName: Cow Armature|Falling
+      firstFrame: 0
+      lastFrame: 16
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cow
+        weight: 1
+      - path: Cow Armature
+        weight: 1
+      - path: Cow Armature/ElbowPole.l
+        weight: 1
+      - path: Cow Armature/ElbowPole.l/ElbowPole.l_end
+        weight: 1
+      - path: Cow Armature/ElbowPole.r
+        weight: 1
+      - path: Cow Armature/ElbowPole.r/ElbowPole.r_end
+        weight: 1
+      - path: Cow Armature/FootRoll.l
+        weight: 1
+      - path: Cow Armature/FootRoll.l/FootTarget.l
+        weight: 1
+      - path: Cow Armature/FootRoll.l/FootTarget.l/FootTarget.l_end
+        weight: 1
+      - path: Cow Armature/FootRoll.r
+        weight: 1
+      - path: Cow Armature/FootRoll.r/FootTarget.r
+        weight: 1
+      - path: Cow Armature/FootRoll.r/FootTarget.r/FootTarget.r_end
+        weight: 1
+      - path: Cow Armature/HandTarget.l
+        weight: 1
+      - path: Cow Armature/HandTarget.l/HandTarget.l_end
+        weight: 1
+      - path: Cow Armature/HandTarget.r
+        weight: 1
+      - path: Cow Armature/HandTarget.r/HandTarget.r_end
+        weight: 1
+      - path: Cow Armature/Hip
+        weight: 1
+      - path: Cow Armature/Hip/Torso
+        weight: 1
+      - path: Cow Armature/Hip/Torso/Neck
+        weight: 1
+      - path: Cow Armature/Hip/Torso/Neck/Head
+        weight: 1
+      - path: Cow Armature/Hip/Torso/Neck/Head/Head_end
+        weight: 1
+      - path: Cow Armature/Hip/Torso/UpperArm.l
+        weight: 1
+      - path: Cow Armature/Hip/Torso/UpperArm.l/LowerArm.l
+        weight: 1
+      - path: Cow Armature/Hip/Torso/UpperArm.l/LowerArm.l/LowerArm.l_end
+        weight: 1
+      - path: Cow Armature/Hip/Torso/UpperArm.r
+        weight: 1
+      - path: Cow Armature/Hip/Torso/UpperArm.r/LowerArm.r
+        weight: 1
+      - path: Cow Armature/Hip/Torso/UpperArm.r/LowerArm.r/LowerArm.r_end
+        weight: 1
+      - path: Cow Armature/Hip/UpperLeg.l
+        weight: 1
+      - path: Cow Armature/Hip/UpperLeg.l/LowerLeg.l
+        weight: 1
+      - path: Cow Armature/Hip/UpperLeg.l/LowerLeg.l/Foot.l
+        weight: 1
+      - path: Cow Armature/Hip/UpperLeg.l/LowerLeg.l/Foot.l/Foot.l_end
+        weight: 1
+      - path: Cow Armature/Hip/UpperLeg.r
+        weight: 1
+      - path: Cow Armature/Hip/UpperLeg.r/LowerLeg.r
+        weight: 1
+      - path: Cow Armature/Hip/UpperLeg.r/LowerLeg.r/Foot.r
+        weight: 1
+      - path: Cow Armature/Hip/UpperLeg.r/LowerLeg.r/Foot.r/Foot.r_end
+        weight: 1
+      - path: Cow Armature/Hip/UpperTail
+        weight: 1
+      - path: Cow Armature/Hip/UpperTail/MiddleTail
+        weight: 1
+      - path: Cow Armature/Hip/UpperTail/MiddleTail/EndTail
+        weight: 1
+      - path: Cow Armature/Hip/UpperTail/MiddleTail/EndTail/TailTip
+        weight: 1
+      - path: Cow Armature/Hip/UpperTail/MiddleTail/EndTail/TailTip/TailTip_end
+        weight: 1
+      - path: Cow Armature/KneePole.l
+        weight: 1
+      - path: Cow Armature/KneePole.l/KneePole.l_end
+        weight: 1
+      - path: Cow Armature/KneePole.r
+        weight: 1
+      - path: Cow Armature/KneePole.r/KneePole.r_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Cow Armature|Flapping Jump
+      takeName: Cow Armature|Flapping Jump
+      firstFrame: 0
+      lastFrame: 6
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cow
+        weight: 1
+      - path: Cow Armature
+        weight: 1
+      - path: Cow Armature/ElbowPole.l
+        weight: 1
+      - path: Cow Armature/ElbowPole.l/ElbowPole.l_end
+        weight: 1
+      - path: Cow Armature/ElbowPole.r
+        weight: 1
+      - path: Cow Armature/ElbowPole.r/ElbowPole.r_end
+        weight: 1
+      - path: Cow Armature/FootRoll.l
+        weight: 1
+      - path: Cow Armature/FootRoll.l/FootTarget.l
+        weight: 1
+      - path: Cow Armature/FootRoll.l/FootTarget.l/FootTarget.l_end
+        weight: 1
+      - path: Cow Armature/FootRoll.r
+        weight: 1
+      - path: Cow Armature/FootRoll.r/FootTarget.r
+        weight: 1
+      - path: Cow Armature/FootRoll.r/FootTarget.r/FootTarget.r_end
+        weight: 1
+      - path: Cow Armature/HandTarget.l
+        weight: 1
+      - path: Cow Armature/HandTarget.l/HandTarget.l_end
+        weight: 1
+      - path: Cow Armature/HandTarget.r
+        weight: 1
+      - path: Cow Armature/HandTarget.r/HandTarget.r_end
+        weight: 1
+      - path: Cow Armature/Hip
+        weight: 1
+      - path: Cow Armature/Hip/Torso
+        weight: 1
+      - path: Cow Armature/Hip/Torso/Neck
+        weight: 1
+      - path: Cow Armature/Hip/Torso/Neck/Head
+        weight: 1
+      - path: Cow Armature/Hip/Torso/Neck/Head/Head_end
+        weight: 1
+      - path: Cow Armature/Hip/Torso/UpperArm.l
+        weight: 1
+      - path: Cow Armature/Hip/Torso/UpperArm.l/LowerArm.l
+        weight: 1
+      - path: Cow Armature/Hip/Torso/UpperArm.l/LowerArm.l/LowerArm.l_end
+        weight: 1
+      - path: Cow Armature/Hip/Torso/UpperArm.r
+        weight: 1
+      - path: Cow Armature/Hip/Torso/UpperArm.r/LowerArm.r
+        weight: 1
+      - path: Cow Armature/Hip/Torso/UpperArm.r/LowerArm.r/LowerArm.r_end
+        weight: 1
+      - path: Cow Armature/Hip/UpperLeg.l
+        weight: 1
+      - path: Cow Armature/Hip/UpperLeg.l/LowerLeg.l
+        weight: 1
+      - path: Cow Armature/Hip/UpperLeg.l/LowerLeg.l/Foot.l
+        weight: 1
+      - path: Cow Armature/Hip/UpperLeg.l/LowerLeg.l/Foot.l/Foot.l_end
+        weight: 1
+      - path: Cow Armature/Hip/UpperLeg.r
+        weight: 1
+      - path: Cow Armature/Hip/UpperLeg.r/LowerLeg.r
+        weight: 1
+      - path: Cow Armature/Hip/UpperLeg.r/LowerLeg.r/Foot.r
+        weight: 1
+      - path: Cow Armature/Hip/UpperLeg.r/LowerLeg.r/Foot.r/Foot.r_end
+        weight: 1
+      - path: Cow Armature/Hip/UpperTail
+        weight: 1
+      - path: Cow Armature/Hip/UpperTail/MiddleTail
+        weight: 1
+      - path: Cow Armature/Hip/UpperTail/MiddleTail/EndTail
+        weight: 1
+      - path: Cow Armature/Hip/UpperTail/MiddleTail/EndTail/TailTip
+        weight: 1
+      - path: Cow Armature/Hip/UpperTail/MiddleTail/EndTail/TailTip/TailTip_end
+        weight: 1
+      - path: Cow Armature/KneePole.l
+        weight: 1
+      - path: Cow Armature/KneePole.l/KneePole.l_end
+        weight: 1
+      - path: Cow Armature/KneePole.r
+        weight: 1
+      - path: Cow Armature/KneePole.r/KneePole.r_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Cow Armature|Flying
+      takeName: Cow Armature|Flying
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cow
+        weight: 1
+      - path: Cow Armature
+        weight: 1
+      - path: Cow Armature/ElbowPole.l
+        weight: 1
+      - path: Cow Armature/ElbowPole.l/ElbowPole.l_end
+        weight: 1
+      - path: Cow Armature/ElbowPole.r
+        weight: 1
+      - path: Cow Armature/ElbowPole.r/ElbowPole.r_end
+        weight: 1
+      - path: Cow Armature/FootRoll.l
+        weight: 1
+      - path: Cow Armature/FootRoll.l/FootTarget.l
+        weight: 1
+      - path: Cow Armature/FootRoll.l/FootTarget.l/FootTarget.l_end
+        weight: 1
+      - path: Cow Armature/FootRoll.r
+        weight: 1
+      - path: Cow Armature/FootRoll.r/FootTarget.r
+        weight: 1
+      - path: Cow Armature/FootRoll.r/FootTarget.r/FootTarget.r_end
+        weight: 1
+      - path: Cow Armature/HandTarget.l
+        weight: 1
+      - path: Cow Armature/HandTarget.l/HandTarget.l_end
+        weight: 1
+      - path: Cow Armature/HandTarget.r
+        weight: 1
+      - path: Cow Armature/HandTarget.r/HandTarget.r_end
+        weight: 1
+      - path: Cow Armature/Hip
+        weight: 1
+      - path: Cow Armature/Hip/Torso
+        weight: 1
+      - path: Cow Armature/Hip/Torso/Neck
+        weight: 1
+      - path: Cow Armature/Hip/Torso/Neck/Head
+        weight: 1
+      - path: Cow Armature/Hip/Torso/Neck/Head/Head_end
+        weight: 1
+      - path: Cow Armature/Hip/Torso/UpperArm.l
+        weight: 1
+      - path: Cow Armature/Hip/Torso/UpperArm.l/LowerArm.l
+        weight: 1
+      - path: Cow Armature/Hip/Torso/UpperArm.l/LowerArm.l/LowerArm.l_end
+        weight: 1
+      - path: Cow Armature/Hip/Torso/UpperArm.r
+        weight: 1
+      - path: Cow Armature/Hip/Torso/UpperArm.r/LowerArm.r
+        weight: 1
+      - path: Cow Armature/Hip/Torso/UpperArm.r/LowerArm.r/LowerArm.r_end
+        weight: 1
+      - path: Cow Armature/Hip/UpperLeg.l
+        weight: 1
+      - path: Cow Armature/Hip/UpperLeg.l/LowerLeg.l
+        weight: 1
+      - path: Cow Armature/Hip/UpperLeg.l/LowerLeg.l/Foot.l
+        weight: 1
+      - path: Cow Armature/Hip/UpperLeg.l/LowerLeg.l/Foot.l/Foot.l_end
+        weight: 1
+      - path: Cow Armature/Hip/UpperLeg.r
+        weight: 1
+      - path: Cow Armature/Hip/UpperLeg.r/LowerLeg.r
+        weight: 1
+      - path: Cow Armature/Hip/UpperLeg.r/LowerLeg.r/Foot.r
+        weight: 1
+      - path: Cow Armature/Hip/UpperLeg.r/LowerLeg.r/Foot.r/Foot.r_end
+        weight: 1
+      - path: Cow Armature/Hip/UpperTail
+        weight: 1
+      - path: Cow Armature/Hip/UpperTail/MiddleTail
+        weight: 1
+      - path: Cow Armature/Hip/UpperTail/MiddleTail/EndTail
+        weight: 1
+      - path: Cow Armature/Hip/UpperTail/MiddleTail/EndTail/TailTip
+        weight: 1
+      - path: Cow Armature/Hip/UpperTail/MiddleTail/EndTail/TailTip/TailTip_end
+        weight: 1
+      - path: Cow Armature/KneePole.l
+        weight: 1
+      - path: Cow Armature/KneePole.l/KneePole.l_end
+        weight: 1
+      - path: Cow Armature/KneePole.r
+        weight: 1
+      - path: Cow Armature/KneePole.r/KneePole.r_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Cow Armature|Plain Falling
+      takeName: Cow Armature|Plain Falling
+      firstFrame: 0
+      lastFrame: 12
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cow
+        weight: 1
+      - path: Cow Armature
+        weight: 1
+      - path: Cow Armature/ElbowPole.l
+        weight: 1
+      - path: Cow Armature/ElbowPole.l/ElbowPole.l_end
+        weight: 1
+      - path: Cow Armature/ElbowPole.r
+        weight: 1
+      - path: Cow Armature/ElbowPole.r/ElbowPole.r_end
+        weight: 1
+      - path: Cow Armature/FootRoll.l
+        weight: 1
+      - path: Cow Armature/FootRoll.l/FootTarget.l
+        weight: 1
+      - path: Cow Armature/FootRoll.l/FootTarget.l/FootTarget.l_end
+        weight: 1
+      - path: Cow Armature/FootRoll.r
+        weight: 1
+      - path: Cow Armature/FootRoll.r/FootTarget.r
+        weight: 1
+      - path: Cow Armature/FootRoll.r/FootTarget.r/FootTarget.r_end
+        weight: 1
+      - path: Cow Armature/HandTarget.l
+        weight: 1
+      - path: Cow Armature/HandTarget.l/HandTarget.l_end
+        weight: 1
+      - path: Cow Armature/HandTarget.r
+        weight: 1
+      - path: Cow Armature/HandTarget.r/HandTarget.r_end
+        weight: 1
+      - path: Cow Armature/Hip
+        weight: 1
+      - path: Cow Armature/Hip/Torso
+        weight: 1
+      - path: Cow Armature/Hip/Torso/Neck
+        weight: 1
+      - path: Cow Armature/Hip/Torso/Neck/Head
+        weight: 1
+      - path: Cow Armature/Hip/Torso/Neck/Head/Head_end
+        weight: 1
+      - path: Cow Armature/Hip/Torso/UpperArm.l
+        weight: 1
+      - path: Cow Armature/Hip/Torso/UpperArm.l/LowerArm.l
+        weight: 1
+      - path: Cow Armature/Hip/Torso/UpperArm.l/LowerArm.l/LowerArm.l_end
+        weight: 1
+      - path: Cow Armature/Hip/Torso/UpperArm.r
+        weight: 1
+      - path: Cow Armature/Hip/Torso/UpperArm.r/LowerArm.r
+        weight: 1
+      - path: Cow Armature/Hip/Torso/UpperArm.r/LowerArm.r/LowerArm.r_end
+        weight: 1
+      - path: Cow Armature/Hip/UpperLeg.l
+        weight: 1
+      - path: Cow Armature/Hip/UpperLeg.l/LowerLeg.l
+        weight: 1
+      - path: Cow Armature/Hip/UpperLeg.l/LowerLeg.l/Foot.l
+        weight: 1
+      - path: Cow Armature/Hip/UpperLeg.l/LowerLeg.l/Foot.l/Foot.l_end
+        weight: 1
+      - path: Cow Armature/Hip/UpperLeg.r
+        weight: 1
+      - path: Cow Armature/Hip/UpperLeg.r/LowerLeg.r
+        weight: 1
+      - path: Cow Armature/Hip/UpperLeg.r/LowerLeg.r/Foot.r
+        weight: 1
+      - path: Cow Armature/Hip/UpperLeg.r/LowerLeg.r/Foot.r/Foot.r_end
+        weight: 1
+      - path: Cow Armature/Hip/UpperTail
+        weight: 1
+      - path: Cow Armature/Hip/UpperTail/MiddleTail
+        weight: 1
+      - path: Cow Armature/Hip/UpperTail/MiddleTail/EndTail
+        weight: 1
+      - path: Cow Armature/Hip/UpperTail/MiddleTail/EndTail/TailTip
+        weight: 1
+      - path: Cow Armature/Hip/UpperTail/MiddleTail/EndTail/TailTip/TailTip_end
+        weight: 1
+      - path: Cow Armature/KneePole.l
+        weight: 1
+      - path: Cow Armature/KneePole.l/KneePole.l_end
+        weight: 1
+      - path: Cow Armature/KneePole.r
+        weight: 1
+      - path: Cow Armature/KneePole.r/KneePole.r_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Cow Armature|Spin Jump
+      takeName: Cow Armature|Spin Jump
+      firstFrame: 0
+      lastFrame: 32
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cow
+        weight: 1
+      - path: Cow Armature
+        weight: 1
+      - path: Cow Armature/ElbowPole.l
+        weight: 1
+      - path: Cow Armature/ElbowPole.l/ElbowPole.l_end
+        weight: 1
+      - path: Cow Armature/ElbowPole.r
+        weight: 1
+      - path: Cow Armature/ElbowPole.r/ElbowPole.r_end
+        weight: 1
+      - path: Cow Armature/FootRoll.l
+        weight: 1
+      - path: Cow Armature/FootRoll.l/FootTarget.l
+        weight: 1
+      - path: Cow Armature/FootRoll.l/FootTarget.l/FootTarget.l_end
+        weight: 1
+      - path: Cow Armature/FootRoll.r
+        weight: 1
+      - path: Cow Armature/FootRoll.r/FootTarget.r
+        weight: 1
+      - path: Cow Armature/FootRoll.r/FootTarget.r/FootTarget.r_end
+        weight: 1
+      - path: Cow Armature/HandTarget.l
+        weight: 1
+      - path: Cow Armature/HandTarget.l/HandTarget.l_end
+        weight: 1
+      - path: Cow Armature/HandTarget.r
+        weight: 1
+      - path: Cow Armature/HandTarget.r/HandTarget.r_end
+        weight: 1
+      - path: Cow Armature/Hip
+        weight: 1
+      - path: Cow Armature/Hip/Torso
+        weight: 1
+      - path: Cow Armature/Hip/Torso/Neck
+        weight: 1
+      - path: Cow Armature/Hip/Torso/Neck/Head
+        weight: 1
+      - path: Cow Armature/Hip/Torso/Neck/Head/Head_end
+        weight: 1
+      - path: Cow Armature/Hip/Torso/UpperArm.l
+        weight: 1
+      - path: Cow Armature/Hip/Torso/UpperArm.l/LowerArm.l
+        weight: 1
+      - path: Cow Armature/Hip/Torso/UpperArm.l/LowerArm.l/LowerArm.l_end
+        weight: 1
+      - path: Cow Armature/Hip/Torso/UpperArm.r
+        weight: 1
+      - path: Cow Armature/Hip/Torso/UpperArm.r/LowerArm.r
+        weight: 1
+      - path: Cow Armature/Hip/Torso/UpperArm.r/LowerArm.r/LowerArm.r_end
+        weight: 1
+      - path: Cow Armature/Hip/UpperLeg.l
+        weight: 1
+      - path: Cow Armature/Hip/UpperLeg.l/LowerLeg.l
+        weight: 1
+      - path: Cow Armature/Hip/UpperLeg.l/LowerLeg.l/Foot.l
+        weight: 1
+      - path: Cow Armature/Hip/UpperLeg.l/LowerLeg.l/Foot.l/Foot.l_end
+        weight: 1
+      - path: Cow Armature/Hip/UpperLeg.r
+        weight: 1
+      - path: Cow Armature/Hip/UpperLeg.r/LowerLeg.r
+        weight: 1
+      - path: Cow Armature/Hip/UpperLeg.r/LowerLeg.r/Foot.r
+        weight: 1
+      - path: Cow Armature/Hip/UpperLeg.r/LowerLeg.r/Foot.r/Foot.r_end
+        weight: 1
+      - path: Cow Armature/Hip/UpperTail
+        weight: 1
+      - path: Cow Armature/Hip/UpperTail/MiddleTail
+        weight: 1
+      - path: Cow Armature/Hip/UpperTail/MiddleTail/EndTail
+        weight: 1
+      - path: Cow Armature/Hip/UpperTail/MiddleTail/EndTail/TailTip
+        weight: 1
+      - path: Cow Armature/Hip/UpperTail/MiddleTail/EndTail/TailTip/TailTip_end
+        weight: 1
+      - path: Cow Armature/KneePole.l
+        weight: 1
+      - path: Cow Armature/KneePole.l/KneePole.l_end
+        weight: 1
+      - path: Cow Armature/KneePole.r
+        weight: 1
+      - path: Cow Armature/KneePole.r/KneePole.r_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

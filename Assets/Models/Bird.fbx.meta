@@ -1,0 +1,272 @@
+fileFormatVersion: 2
+guid: 24231de8cbf6c4342ab4145c1d0d39c2
+timeCreated: 1517113216
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Body
+    100004: Foot.l
+    100006: Foot.l_end
+    100008: Foot.r
+    100010: Foot.r_end
+    100012: Head
+    100014: Head_end
+    100016: Leg.l
+    100018: Leg.r
+    100020: Neck
+    100022: Small Bird
+    100024: Small Bird Armature
+    100026: Tail
+    100028: Tail_end
+    100030: Wing End.l
+    100032: Wing End.l_end
+    100034: Wing End.r
+    100036: Wing End.r_end
+    100038: Wing Middle.l
+    100040: Wing Middle.r
+    100042: Wing Root.l
+    100044: Wing Root.r
+    400000: //RootNode
+    400002: Body
+    400004: Foot.l
+    400006: Foot.l_end
+    400008: Foot.r
+    400010: Foot.r_end
+    400012: Head
+    400014: Head_end
+    400016: Leg.l
+    400018: Leg.r
+    400020: Neck
+    400022: Small Bird
+    400024: Small Bird Armature
+    400026: Tail
+    400028: Tail_end
+    400030: Wing End.l
+    400032: Wing End.l_end
+    400034: Wing End.r
+    400036: Wing End.r_end
+    400038: Wing Middle.l
+    400040: Wing Middle.r
+    400042: Wing Root.l
+    400044: Wing Root.r
+    4300000: Small Bird
+    7400000: Small Bird Armature|Flying
+    7400002: Small Bird Armature|Small Bird Drop
+    7400004: Small Bird Armature|Small Bird Fly
+    7400006: Small Bird Armature|Small Bird Fly0
+    9500000: //RootNode
+    13700000: Small Bird
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Small Bird Armature|Small Bird Drop
+      takeName: Small Bird Armature|Small Bird Drop
+      firstFrame: 0
+      lastFrame: 21
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Small Bird
+        weight: 1
+      - path: Small Bird Armature
+        weight: 1
+      - path: Small Bird Armature/Body
+        weight: 1
+      - path: Small Bird Armature/Body/Leg.l
+        weight: 1
+      - path: Small Bird Armature/Body/Leg.l/Foot.l
+        weight: 1
+      - path: Small Bird Armature/Body/Leg.l/Foot.l/Foot.l_end
+        weight: 1
+      - path: Small Bird Armature/Body/Leg.r
+        weight: 1
+      - path: Small Bird Armature/Body/Leg.r/Foot.r
+        weight: 1
+      - path: Small Bird Armature/Body/Leg.r/Foot.r/Foot.r_end
+        weight: 1
+      - path: Small Bird Armature/Body/Neck
+        weight: 1
+      - path: Small Bird Armature/Body/Neck/Head
+        weight: 1
+      - path: Small Bird Armature/Body/Neck/Head/Head_end
+        weight: 1
+      - path: Small Bird Armature/Body/Tail
+        weight: 1
+      - path: Small Bird Armature/Body/Tail/Tail_end
+        weight: 1
+      - path: Small Bird Armature/Body/Wing Root.l
+        weight: 1
+      - path: Small Bird Armature/Body/Wing Root.l/Wing Middle.l
+        weight: 1
+      - path: Small Bird Armature/Body/Wing Root.l/Wing Middle.l/Wing End.l
+        weight: 1
+      - path: Small Bird Armature/Body/Wing Root.l/Wing Middle.l/Wing End.l/Wing End.l_end
+        weight: 1
+      - path: Small Bird Armature/Body/Wing Root.r
+        weight: 1
+      - path: Small Bird Armature/Body/Wing Root.r/Wing Middle.r
+        weight: 1
+      - path: Small Bird Armature/Body/Wing Root.r/Wing Middle.r/Wing End.r
+        weight: 1
+      - path: Small Bird Armature/Body/Wing Root.r/Wing Middle.r/Wing End.r/Wing End.r_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Small Bird Armature|Small Bird Fly0
+      takeName: Small Bird Armature|Small Bird Fly
+      firstFrame: 0
+      lastFrame: 22
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Small Bird
+        weight: 1
+      - path: Small Bird Armature
+        weight: 1
+      - path: Small Bird Armature/Body
+        weight: 1
+      - path: Small Bird Armature/Body/Leg.l
+        weight: 1
+      - path: Small Bird Armature/Body/Leg.l/Foot.l
+        weight: 1
+      - path: Small Bird Armature/Body/Leg.l/Foot.l/Foot.l_end
+        weight: 1
+      - path: Small Bird Armature/Body/Leg.r
+        weight: 1
+      - path: Small Bird Armature/Body/Leg.r/Foot.r
+        weight: 1
+      - path: Small Bird Armature/Body/Leg.r/Foot.r/Foot.r_end
+        weight: 1
+      - path: Small Bird Armature/Body/Neck
+        weight: 1
+      - path: Small Bird Armature/Body/Neck/Head
+        weight: 1
+      - path: Small Bird Armature/Body/Neck/Head/Head_end
+        weight: 1
+      - path: Small Bird Armature/Body/Tail
+        weight: 1
+      - path: Small Bird Armature/Body/Tail/Tail_end
+        weight: 1
+      - path: Small Bird Armature/Body/Wing Root.l
+        weight: 1
+      - path: Small Bird Armature/Body/Wing Root.l/Wing Middle.l
+        weight: 1
+      - path: Small Bird Armature/Body/Wing Root.l/Wing Middle.l/Wing End.l
+        weight: 1
+      - path: Small Bird Armature/Body/Wing Root.l/Wing Middle.l/Wing End.l/Wing End.l_end
+        weight: 1
+      - path: Small Bird Armature/Body/Wing Root.r
+        weight: 1
+      - path: Small Bird Armature/Body/Wing Root.r/Wing Middle.r
+        weight: 1
+      - path: Small Bird Armature/Body/Wing Root.r/Wing Middle.r/Wing End.r
+        weight: 1
+      - path: Small Bird Armature/Body/Wing Root.r/Wing Middle.r/Wing End.r/Wing End.r_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
